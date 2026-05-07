@@ -14,12 +14,11 @@ nav a{
     text-decoration:none;
     margin:15px;
     font-size:18px;
-
     font-family:Arial;
 }
 
 nav a:hover{
-    color:#d8f0d2; 
+    color:#d8f0d2;
 }
 
 .container{
@@ -32,34 +31,34 @@ nav a:hover{
     margin-bottom:20px;
     border-radius:10px;
 
-}
+    text-align:center; 
 
 img{
     width:300px;
     border-radius:10px;
     display:block;
-    margin-bottom:15px;
-
-    /* fig purple border */
+    margin:15px auto; 
     border:3px solid #7a3b6a;
 }
 
 h1,h2,h3{
     color:#862828;
-
     font-family:Georgia;
+    text-align:center; 
 }
 
 p{
     line-height:1.8;
     color:#333333;
-
-    font-family: Times New Roman;
+    font-family:"Times New Roman";
+    text-align:center; 
 }
 
 ul{
     line-height:1.8;
     font-family:Arial;
+    text-align:center;
+    list-style-position:inside;
 }
 
 footer{
@@ -67,6 +66,5 @@ footer{
     color:#fffdfd;
     text-align:center;
     padding:10px;
-
     font-family:Arial;
 }
